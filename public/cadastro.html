@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row form-cadastro p-3">
+            <div class="col-10 d-flex justify-content-center align-itens-center area-form">
+                <div class="row form-image">
+                    <img src="./images/paginarecados.jpg" alt="">
+                </div>
+                <div class="form">
+                    <form class="form-group" id="formulario">
+                        <h2 class="text-center mt-4 mb-3">CRIAR CONTA</h2>
+
+                     <div class="input-group mt-3 ms-3">
+                            <label for="input-nome" class="form-label" id="label-nome"></label>
+                            <input type="text" class="form-control" placeholder="Nome" id="nome" required>
+                    </div>
+                    <div class="input-group mt-3 ms-3">
+                        <label for="input-email" class="form-label" id="label-email"></label>
+                        <input type="email" class="form-control" placeholder="E-mail" id="email" required>
+                    </div>
+                    <div class="input-group mt-3 ms-3">
+                        <label for="input-senha" class="form-label" id="label-senha"></label>
+                        <input type="password" class="form-control" placeholder="Senha" id="senha" required>
+                    </div>
+                    <div class="row">
+                        <div class="col ms-3">
+                            <button type="submit" class="btn btn-block mt-2" id="criar-conta">CRIAR CONTA AGORA</button>
+                        </div>
+                    </div>    
+                    </form>
+                </div>    
+            </div>
+        </div>    
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./js/cadastro.js"></script>
+</body>
+</html>
